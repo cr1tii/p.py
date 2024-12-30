@@ -18,7 +18,7 @@ while True:
   if int1 == 'i1':
     while True:
       input1 = input('  wirte the elemnt short from what you want:  ')
-
+      
       syn = dict(zip(list1, list2))
       if input1 in syn:
         print('icreasing...')
@@ -54,7 +54,7 @@ while True:
     c1.print("\n H + O:",style="bold red")
     c1.print('\n2H2 + O2 → 2H2O',style='bold underline yellow')
     time.sleep(0.5)
-
+    
     print(f"—"*38)
     print('\n1. print1 for a 1 + 1 simple calcuate')
     print('2. print2 for a 1 + 1 + 1 calculate')
@@ -81,7 +81,7 @@ while True:
             console.print('\n\nCl₂ + F₂ → 2ClF.',style='bold yellow')
             d1 = input('do you want to complete sir?: ')
             if d1 == 'yes':
-              continue
+              continue 
           else:
               break
           break
@@ -91,9 +91,9 @@ while True:
       @staticmethod
       def as3run():
         pass
-
+    
     k1 = calc(calc.as1run, calc.as2run , calc.as3run)
     k1.ascalcinrun()
-
+    
   elif int1 == 'i4':
     break
