@@ -44,7 +44,11 @@ while True:
       console = Console()
       console.print(f"\n(type 1 to exit if you want.)",style="bold underline cyan"      )
       input1 = input('  wirte the elemnt short from what you want:  ')
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/main
       syn = dict(zip(list1, list2))
       if input1 in syn:
         print('icreasing...')
@@ -66,9 +70,20 @@ while True:
       c1 = Console()
       c1.print(l1,":",l2,style="bold blue")
       time.sleep(1)
+<<<<<<< HEAD
   # i3 command in list menu
+=======
+    @staticmethod
+    def cons():
+      print(f"—"*24)
+      print("'~and as you see the names are order as the elements are.'||")
+      print("\n~for an example the H in the first does stand for the *hydrogen* that its in the first too.")
+      print(f"—"*24)
+  # i3 command in list menu
+    cons()
+>>>>>>> origin/main
   elif int1 == 'i3':
-    time.sleep(1.0)
+m   time.sleep(1.0)
     c1 = Console()
     realist = ['H','O','F','Og', 'Ar','Na','Kr','Xe','Rn']
     c1.print(realist,style="bold red")
