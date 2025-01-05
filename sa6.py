@@ -11,13 +11,11 @@ class att:
   def as1dorun():
     c1 = Console()
     c1.print(f"attention",style="bold underline red on black")
-    time.sleep(1)
+    time.sleep(1.5)
     c1.print(f"this is a simple code to simulate",style="bold red")
-    time.sleep(0.5)
     c1.print(f"a chemical environment that includes some random elements",style="bold red")
-    time.sleep(1)
     c1.print(f"\nyou can type .i2 to view the table that are exists in the list",style="bold pink1")
-    time.sleep(1.7)
+    time.sleep(1)
 def sf():
   print('simple sf')
 
@@ -58,25 +56,20 @@ while True:
   # i2 command in list menu
   elif int1 == 'i2':
     print("increasing...")
+    time.sleep(0.5)
     ll1 = ["H", "N", "O", "F", "Cl", "He", "Ne", "Kr", "Xe", "Rn"]
     ll2 = ['hydrogen','Nitrogen','oxygen', 'Flourine','chlorine','Helium','Neon','Kryton','Xenon','Radon' ]
-    time.sleep(2.0)
     for l1 ,l2 in zip(ll1,ll2):
       c1 = Console()
       c1.print(l1,":",l2,style="bold blue")
-      time.sleep(1)
   # i3 command in list menu
   elif int1 == 'i3':
-    time.sleep(1.0)
     c1 = Console()
     realist = ['H','O','F','Og', 'Ar','Na','Kr','Xe','Rn']
     c1.print(realist,style="bold red")
-    time.sleep(1.0)
     c1.print("\n here's a simple ex sir to help you to get chlorine actions with the p.e list", style='bold red')
-    time.sleep(0.5)
     c1.print("\n H + Cl:",style="bold red")
     c1.print('\n H₂ + Cl₂ → 2HCl',style='bold underline yellow')
-    time.sleep(0.5)
 
     print(f"—"*38)
     print('\n1. print1 for a 1 + 1 simple calcuate')
