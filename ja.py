@@ -56,6 +56,24 @@ class cars:
                         print(ara.ar("\n تأسست في عام 1977 من قبل بودو بوشمان وكلاوس براكمان"))
                         cons.print(ara.ar("\n\n ماذا تفعل؟"),style="bold")
                         print(ara.ar("\n تقوم الشركة بتعديل الأداء، التصميم الداخلي والخارجي، والإضافات الفاخرة"))
+                    elif slava2 == str(2):
+                        print("\n")
+                        print("—"*24)
+                        print('1. Rocket 900')
+                        print('2. G900')
+                        print('3. GT 800')
+                        print('4. Maybach S-Class 900')
+                        print('5. X-Class')
+                        print('6. Ultimate E-Class')
+                        print('7. Smart Fortwo Cityflame')
+                        print('8. CLS K8')
+                        print('9. G63 AMG 6x6 B63-900') 
+                        print("\n")
+                        print("—"*24)
+                    elif slava2 == str(3):
+                        print('you can visit their web:')
+                        print('brabus.com')
+                                       
                     elif slava2 == str(4): 
                         print("wait...")
                         break
