@@ -126,6 +126,47 @@ class cars:
             elif slava == str(1):
                 print("you can visit their website to know more about mercedes:")
                 print("https://www.mercedes-benz.com")
+            elif slava == str(3):
+                while True:
+                    print("1. about s class")
+                    print("2. s class cars")
+                    print("3. s class last works")
+                    print("4. to exit")
+                    in2 = input("  : ")
+                    if in2 == str(1):
+                        lines = [
+                                "The Mercedes-Benz S-Class is a flagship",
+                                "luxury sedan renowned for its advanced",
+                                "technology, exceptional comfort, and",
+                                "superior performance. It has long been",
+                                "considered a benchmark in the luxury car",
+                                "segment, combining innovative features with",
+                                ]
+                        for line in lines:
+                            print("\n")
+                            print("—"*24)
+                            print(line)
+                            print("—"*24)
+                            print("\n")
+                    elif in2 == str(2):
+                        lines2 = [
+                                "Mercedes-Benz S 350",
+                                "Mercedes-Benz S 450",
+                                "Mercedes-Benz S 500",
+                                "Mercedes-Benz S 580",
+                                "Mercedes-Maybach S 580",
+                                "Mercedes-Maybach S 680",
+                                "Mercedes-AMG S 63 E",
+                                ]
+                        for line2 in lines2:
+                            console = Console()
+                            console.print(f"\n","—"*12,line2,"—"*12,"\n",style="bold")
+                    elif in2 == str(3):
+                        print("visit their web to see more:")
+                        print("sclass.com")
+                    elif in2 == str(4):
+                        print("     wait...")
+                        break
             elif slava == str(5):
                 print("exit...")
                 break
