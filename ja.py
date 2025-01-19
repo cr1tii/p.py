@@ -171,8 +171,36 @@ class cars:
                 print("exit...")
                 break
     def runbmw():
-        ca = Console()
-        ca.print(ara.ar("هذا مكان فارغ."),style="underline")
+        while True:
+            ca = Console()
+            ca.print("1. about bmw.",style="blue")
+            ca.print("2. m power team",style="blue")
+            ca.print("3. to exit",style="blue")
+            ca2 = input("\n :  ")
+            if ca2 == str(1):
+                print("type 1 to english/2 to arabic")
+                ara1 = input("1/2 :   ")
+                if ara1 == str(1):
+                    lists = [
+                            "BMW, founded in 1916, is a German brand",
+                            "known for luxury cars, sporty performance",
+                            "and advanced technology. It focuses on",
+                            "innovation, sustainability, and a premium driving experience.",
+                            ]
+                    for line in lists:
+                        print("\n")
+                        print(line)
+                        print("\n")
+                elif ara1 == str(1):
+                    listss = [
+                            "بي إم دبليو شركة ألمانية تأسست عام ١٩١٦، متخصصة في",
+                            "صناعة السيارات الفاخرة والأداء الرياضي والتقنيات المتقدمة",
+                            "وتركز على الابتكار والاستدامة وتجربة القيادة المميزة."
+                            ]
+                    for line2 in listss:
+                        print("\n")
+                        print(ara.ar(line2))
+                        print("\n")
         print("this place is empty")
     def runlexus():
         caa = Console()
