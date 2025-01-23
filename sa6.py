@@ -61,8 +61,7 @@ while True:
     ll2 = ['hydrogen','Nitrogen','oxygen', 'Flourine','chlorine','Helium','Neon','Kryton','Xenon','Radon' ]
     for l1 ,l2 in zip(ll1,ll2):
       c1 = Console()
-      c1.print(l1,":",l2,style="bold blue")
-  # i3 command in list menu
+      c1.print(l1,":",l2,style="bold blue")  # i3 command in list menu
   elif int1 == 'i3':
     c1 = Console()
     realist = ['H','O','F','Og', 'Ar','Na','Kr','Xe','Rn']
